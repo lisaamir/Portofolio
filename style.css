@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body{
+    background-color: lightblue;
+}
+
+.box{
+    min-height: 100vh ;
+    width: 80%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #616A6B ;
+
+}
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: whitesmoke ;
+}
+
+.left-content{
+    padding: 1rem 2rem;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 1 px solid #f0f3f4;
+}
+.profile img{
+    width: 80%;
+    border-radius: 80%;
+    border : 8px solid #b1bdbf;
+    margin: auto;
+    display: block;
+    
+}
+
+.name{
+    font-size: 2rem;
+    color :white;
+    text-transform:uppercase ;
+    letter-spacing: 1px;
+}
+.career{
+    font-size:1.6rem;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+#contact{
+    background-color:rgb(217, 232, 236);
+    color:  #616A6B;
+}
+#skill{
+    background-color:rgb(217, 232, 236); 
+    color: #616A6B;
+}
+
+.contactinfo{
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.contactinfo ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contactinfo ul li i{
+color:rgb(217, 232, 236);
+    
+}
+
+.SKILL ul li{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: .4rem 0;
+}
+
+.progress-bar{
+    width: 100%;
+    height: .2rem;
+    background-color:white; 
+    position:relative;
+}
+
+.progress{
+    position: relative;
+    height: 100%;
+    left: 0%;
+    background-color:lightblue;
+}
+.skill-title{
+    text-transform: uppercase;
+    color: #f0f3f4;
+    font-size: 1rem;
+    padding-right: 1rem;
+
+}
+.progress-C{
+    width: 80%;
+}
+.progress-html{
+    width: 95%;
+}
+.progress-CSS{
+    width: 95%;
+}
+.progress-JS{
+    width: 75%;
+}
+.progress-DESIGN{
+    width: 95%;
+}
+.progress-UIUX{
+    width: 80%;
+}
+
+.about{
+    color:  #616A6B;
+    letter-spacing: 1px;
+
+
+}
+.subabout{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+    
+}
+
+
+.right-main-content{
+    padding: 2rem 3rem;
+    color:  #616A6B;
+}
+
+.subpengalaman{
+    color:  #616A6B;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+
+}
+
+.pd-content{
+    letter-spacing: 1px;
+    font-size: 1.3 rem;
+}
+
+
+
+
+
